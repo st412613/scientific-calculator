@@ -73,6 +73,7 @@ buttons.map((button) => {
                     alert("value empty")
                 }
                 else display.innerText = Math.exp(display.innerText);
+                break;
             case "+/-":
                 if (display.innerText.charAt(0) == "-") {
                     display.innerText = display.innerText.substring(1, display.innerText.length);
